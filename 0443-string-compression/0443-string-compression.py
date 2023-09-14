@@ -6,11 +6,9 @@ class Solution(object):
         """
         counter = 1
         curr_char = chars[0]
-        moving = 1
         pos = 1
-        len_chars = len(chars)
         
-        while moving < len_chars:
+        while pos < len(chars):
             if chars[pos] == curr_char:
                 counter += 1
                 chars.pop(pos)
@@ -25,7 +23,6 @@ class Solution(object):
                     pos += 1
                 curr_char = chars[pos]
                 pos += 1
-            moving += 1
             
         if counter != 1:
             counter_to_string = str(counter)
