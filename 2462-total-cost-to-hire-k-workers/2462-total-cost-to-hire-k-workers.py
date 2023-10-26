@@ -1,31 +1,28 @@
 class Solution:
     def totalCost(self, costs: List[int], k: int, candidates: int) -> int:
-        # head_workers stores the first k workers.
-        # tail_workers stores at most last k workers without any workers from the first k workers. 
-        head_workers = costs[:candidates]
-        tail_workers = costs[max(candidates, len(costs) - candidates):]
-        heapify(head_workers)
-        heapify(tail_workers)
+        front_pq = costs[:candidates]
+        rear_pq = costs[max(candidates, len(costs) - candidates):]
+        ans = 0
+        head_ref = candidates
+        tail_ref =  len(costs) - 1 - candidates
+        heapq.heapify(front_pq)
+        heapq.heapify(rear_pq)
         
-        answer = 0
-        next_head, next_tail = candidates, len(costs) - 1 - candidates 
-
-        for _ in range(k): 
-            if not tail_workers or head_workers and head_workers[0] <= tail_workers[0]: 
-                answer += heappop(head_workers)
-
-                # Only refill the queue if there are workers outside the two queues.
-                if next_head <= next_tail: 
-                    heappush(head_workers, costs[next_head])
-                    next_head += 1
-            else: 
-                answer += heappop(tail_workers)
-
-                # Only refill the queue if there are workers outside the two queues.
-                if next_head <= next_tail:  
-                    heappush(tail_workers, costs[next_tail])
-                    next_tail -= 1
+        for i in range(k):
+            if not rear_pq or front_pq and front_pq[0] <= rear_pq[0]:
+                ans += heapq.heappop(front_pq)
+                
+                if head_ref <= tail_ref:
+                    heapq.heappush(front_pq, costs[head_ref])
+                    head_ref += 1
                     
-        return answer
+            else:
+                ans += heapq.heappop(rear_pq)
+                
+                if head_ref <= tail_ref:
+                    heapq.heappush(rear_pq, costs[tail_ref])
+                    tail_ref -= 1 
+                    
+        return ans
             
         
