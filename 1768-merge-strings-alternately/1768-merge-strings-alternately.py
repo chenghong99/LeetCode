@@ -1,13 +1,20 @@
-class Solution:
-    def mergeAlternately(self, word1: str, word2: str) -> str:
-        word = ""
+class Solution(object):
+    def mergeAlternately(self, word1, word2):
+        """
+        :type word1: str
+        :type word2: str
+        :rtype: str
+        """
+        ls = ""
+        
         while word1 and word2:
-            word += word1[0] + word2[0]
+            ls += word1[0]
+            ls += word2[0]
             word1 = word1[1:]
             word2 = word2[1:]
             
-        if word1 or word2:
-            word += word1 + word2
-            
-        return word
+        ls += word1
+        ls += word2
+        
+        return ls
         
