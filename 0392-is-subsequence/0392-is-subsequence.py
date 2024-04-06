@@ -5,15 +5,12 @@ class Solution(object):
         :type t: str
         :rtype: bool
         """
-        pos_of_s = 0
+        count = 0
         
-        if s == "":
-            return True
-        
-        for i in range(len(t)):
-            if s[pos_of_s] == t[i]:
-                pos_of_s += 1
-                if pos_of_s == len(s):
-                    return True
-        
-        return False
+        for i in t:
+            if count == len(s):
+                return True
+            elif s[count] == i:
+                count += 1
+                
+        return count == len(s)
