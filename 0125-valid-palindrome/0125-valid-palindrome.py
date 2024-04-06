@@ -1,11 +1,19 @@
-class Solution:
+class Solution(object):
     def isPalindrome(self, s):
-        beg, end = 0, len(s) - 1
-        while beg <= end:
-            while not s[beg].isalnum() and beg < end: beg += 1
-            while not s[end].isalnum() and beg < end: end -= 1
-            if s[beg] == s[end] or s[beg].upper() == s[end].upper():
-                beg, end = beg + 1, end - 1
-            else:
+        """
+        :type s: str
+        :rtype: bool
+        """
+        s = s.lower()
+        s_arr = [char for char in s if char.isalnum()]
+        
+        for i in range(len(s_arr) // 2):
+            
+            if s_arr[i] != s_arr[len(s_arr) - 1 - i]:
                 return False
+            
         return True
+        
+        
+        
+        
