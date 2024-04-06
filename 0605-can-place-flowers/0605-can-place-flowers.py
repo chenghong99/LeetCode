@@ -5,14 +5,29 @@ class Solution(object):
         :type n: int
         :rtype: bool
         """
+        count = 0
         
         for i in range(len(flowerbed)):
-            if flowerbed[i] == 0:
-                empty_left_plot = (i == 0) or (flowerbed[i - 1] == 0)
-                empty_right_lot = (i == len(flowerbed) - 1) or (flowerbed[i + 1] == 0)
-                
-                # If both plots are empty, we can plant a flower here.
-                if empty_left_plot and empty_right_lot:
+            
+            if len(flowerbed) == 1:
+                if flowerbed[i] == 0:
+                    count += 1
+            
+            elif i == 0 and len(flowerbed) > 1:
+                if flowerbed[i] == 0 and flowerbed[i + 1] == 0:
+                    count += 1
                     flowerbed[i] = 1
-                    n -= 1
-        return n <= 0
+                                        
+            elif i == len(flowerbed) - 1 and len(flowerbed) > 1:
+                if flowerbed[i] == 0 and flowerbed[i - 1] == 0:
+                    count += 1
+                    flowerbed[i] = 1
+                    
+            else:
+                if flowerbed[i + 1] == 0 and flowerbed[i - 1] == 0 and flowerbed[i] == 0:
+                    count += 1
+                    flowerbed[i] = 1
+            
+            
+        return count >= n
+        
