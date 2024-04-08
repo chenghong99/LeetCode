@@ -4,19 +4,16 @@ class Solution(object):
         :type height: List[int]
         :rtype: int
         """
-
-        max_vol = 0
-        curr_vol = 0
-
-        front = 0
-        back = len(height) - 1
-
-        while front != back:
-            curr_vol = min(height[front], height[back]) * (back - front)
-            max_vol = max(max_vol, curr_vol)
-            if height[front] > height[back]:
-                back -= 1
+        head = 0 
+        tail = len(height) - 1
+        water = 0 
+        
+        while tail > head:
+            curr_vol = min(height[head], height[tail]) * (tail - head)
+            water = max(water, curr_vol)
+            if height[tail] > height[head]:
+                head += 1
             else:
-                front += 1
-
-        return max_vol 
+                tail -= 1
+        return water
+        
