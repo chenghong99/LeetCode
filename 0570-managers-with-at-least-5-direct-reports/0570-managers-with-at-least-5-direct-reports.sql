@@ -1,10 +1,12 @@
 # Write your MySQL query statement below
 
+## under manager id more than 5 ppl 
+## get the manager id of those with more than 5 and match with employee table
+
 SELECT e2.name
 FROM Employee e2
-JOIN (SELECT e1.managerId, COUNT(*) AS staff_count
+WHERE e2.id IN 
+(SELECT e1.managerId 
 FROM Employee e1
-WHERE e1.managerId IS NOT NULL
-GROUP BY e1.managerId) e3 ON e2.id = e3.managerId
-WHERE e3.staff_count >= 5
-
+GROUP BY e1.managerId 
+HAVING COUNT(e1.managerId) >= 5)
