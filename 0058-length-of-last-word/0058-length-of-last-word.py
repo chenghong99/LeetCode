@@ -6,14 +6,15 @@ class Solution(object):
         """
         
         s = s[::-1]
-        index  = 0
+        pos = 0
+        count = 0
         
-        while s[index] == " ":
-            index += 1
+        while s[pos] == " ":
+            pos += 1
+                
+        while pos < len(s) and s[pos] != " ":
+            pos += 1
+            count += 1
             
-        for i in range(index,len(s)):
-            if s[i] == " ":
-                return i - index
-            
-        return len(s) - index
+        return count 
         
