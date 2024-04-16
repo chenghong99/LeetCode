@@ -5,15 +5,20 @@ class Solution(object):
         :type k: int
         :rtype: int
         """
-
-        hm = {0:1}
-        curr_sum = 0
-        counter = 0
-
-        for i in nums:
-            curr_sum += i
-            counter += hm.get(curr_sum - k, 0)
-            hm[curr_sum] = hm.get(curr_sum, 0) + 1
         
-        return counter
+        dic = {0:1}
+        ans = 0
+        curr_sum = 0
+        
+        for i in nums: 
+            curr_sum += i
+            if dic.get(curr_sum - k) != None:
+                ans += dic.get(curr_sum - k)
+            dic[curr_sum] = dic.get(curr_sum, 0) + 1
+        return ans
                 
+            
+        
+## prefix sum 
+
+        
