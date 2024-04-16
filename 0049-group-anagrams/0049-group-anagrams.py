@@ -5,16 +5,27 @@ class Solution(object):
         :rtype: List[List[str]]
         """
         
-        dic = dict()
+        hashmap = {}
+        final = []
         
-        for i in range(len(strs)):
-            split_string = tuple(sorted(list(strs[i])))
-            if dic.get(split_string) == None:
-                dic[split_string] = [strs[i]]
+        for word in strs:
+            new_word = tuple(sorted(word))
+            if hashmap.get(new_word) == None:
+                hashmap[new_word] = [word]
                 
             else:
-                dic.get(split_string).append(strs[i])
+                hashmap.get(new_word).append(word)
                 
-        return list(dic.values())
+        for k, v in hashmap.items():
+            final.append(v)
+            
+        return final 
+            
             
         
+        
+## iterate and sort 
+## data structure use hashmap 
+# key wil be sorted word and map is a list of the angrmas.
+## iterate and combine in the end 
+
