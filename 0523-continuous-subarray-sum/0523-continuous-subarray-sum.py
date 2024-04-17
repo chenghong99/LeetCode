@@ -13,11 +13,10 @@ class Solution(object):
             curr_sum += nums[i]
             mod = curr_sum % k
             
-            if dic.get(mod) == None:
-                dic[mod] = i
-                
-            elif i - dic.get(mod) > 1:
+            if dic.get(mod) != None and i - dic.get(mod) > 1:
                 return True
+            elif dic.get(mod) == None:
+                dic[mod] = i
                 
         return False
  
