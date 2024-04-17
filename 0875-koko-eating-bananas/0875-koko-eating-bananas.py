@@ -7,7 +7,7 @@ class Solution(object):
         :type h: int
         :rtype: int
         """
-        
+        # cannot accept first h = count as ans as some other mid might be smaller 
         r = max(piles)
         l = 1
         temp = r
