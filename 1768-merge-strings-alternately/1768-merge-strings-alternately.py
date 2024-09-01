@@ -1,20 +1,15 @@
-class Solution(object):
-    def mergeAlternately(self, word1, word2):
-        """
-        :type word1: str
-        :type word2: str
-        :rtype: str
-        """
-        ls = ""
+class Solution:
+    def mergeAlternately(self, word1: str, word2: str) -> str:
+        word1_pos = 0
+        word2_pos = 0
+        final = ''
         
-        while word1 and word2:
-            ls += word1[0]
-            ls += word2[0]
-            word1 = word1[1:]
-            word2 = word2[1:]
+        while word1_pos < len(word1) and word2_pos < len(word2):
+            final += word1[word1_pos] + word2[word2_pos]
+            word1_pos += 1
+            word2_pos += 1
             
-        ls += word1
-        ls += word2
+        final += word1[word1_pos:] + word2[word2_pos:]
         
-        return ls
+        return final 
         
