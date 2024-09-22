@@ -1,26 +1,15 @@
-class Solution(object):
-    def subarraySum(self, nums, k):
-        """
-        :type nums: List[int]
-        :type k: int
-        :rtype: int
-        """
-        
-        dic = {0:1}
+class Solution:
+    def subarraySum(self, nums: List[int], k: int) -> int:
         curr_sum = 0
-        ans = 0
+        prefix_sum = {0:1}
+        total = 0
         
         for i in nums:
             curr_sum += i
-            if dic.get(curr_sum - k) != None:
-                ans += dic.get(curr_sum - k)
-                
-            dic[curr_sum] = dic.get(curr_sum, 0) + 1
-                
-        return ans
-                
-
-        
-## prefix sum 
-
+            total += prefix_sum.get(curr_sum - k, 0)
+            prefix_sum[curr_sum] = prefix_sum.get(curr_sum, 0) + 1
+            
+            
+        return total
+                 
         
