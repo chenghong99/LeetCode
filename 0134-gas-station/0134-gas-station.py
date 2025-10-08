@@ -5,16 +5,15 @@ class Solution(object):
         :type cost: List[int]
         :rtype: int
         """
+        ## start iterating from the first index, use an accumulating variable to count the fuel accumulated so far. if it reaches negative reset to 0 
 
         if sum(gas) < sum(cost):
             return -1
 
-        else:
-            total = 0
-            index = 0
-            for i in range(len(gas)):
-                total += (gas[i] - cost[i])
-                if total < 0:
-                    total = 0
-                    index = i + 1
-            return index
+        accumulate, pos = 0, 0
+        for i in range(len(gas)):
+            accumulate += gas[i] - cost[i]
+            if accumulate < 0:
+                pos = i + 1
+                accumulate = 0
+        return pos
