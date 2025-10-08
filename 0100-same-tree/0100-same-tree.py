@@ -7,20 +7,21 @@
 class Solution(object):
     def isSameTree(self, p, q):
         """
-        :type p: TreeNode
-        :type q: TreeNode
+        :type p: Optional[TreeNode]
+        :type q: Optional[TreeNode]
         :rtype: bool
         """
-        if p is None and q is None:
+
+        ## base case if both are none then return true, else if one of them is none and the other is not then return false
+        ## recursive call, isSameTree left of p vs left of q and isSameTree right of p and right of q.
+
+        if p == None and q == None:
             return True
-        
-        if p is None or q is None:
+
+        elif p == None or q == None:
             return False
-        
+
         if p.val == q.val:
             return self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
-        
         else:
             return False
-        
-        
