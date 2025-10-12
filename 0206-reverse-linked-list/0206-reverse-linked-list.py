@@ -6,21 +6,16 @@
 class Solution(object):
     def reverseList(self, head):
         """
-        :type head: ListNode
-        :rtype: ListNode
+        :type head: Optional[ListNode]
+        :rtype: Optional[ListNode]
         """
-        
-        left = head
-        mid = head 
-        right = None
-        
-        while mid != None:
-            left = mid.next 
-            mid.next = right
-            right = mid
-            mid = left 
-            
-        head=right
-        return head
-    
-    
+        ## need 3 variables to keep track. add a temp head to first head to create prev. 
+        prev = None 
+
+        while head:
+            curr = head
+            head = head.next 
+            curr.next = prev 
+            prev = curr
+
+        return prev
