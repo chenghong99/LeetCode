@@ -6,37 +6,35 @@
 class Solution(object):
     def reverseBetween(self, head, left, right):
         """
-        :type head: ListNode
+        :type head: Optional[ListNode]
         :type left: int
         :type right: int
-        :rtype: ListNode
+        :rtype: Optional[ListNode]
         """
-        dummy = ListNode(0)
-        dummy.next = head
-        
-        prev = dummy
-        cur = dummy.next
-        
 
-        for i in range(1, left):
-            cur = cur.next
-            prev = prev.next
-            
-        perm_prev = prev
-        perm_head = cur
-        prev = None  
-        for i in range(left, right + 1):
-            temp = cur.next
-            cur.next = prev
-            prev = cur
-            cur = temp
+        dummy_node = ListNode()
+        dummy_node.next = head 
+        fix_node = dummy_node
+        prev_node = dummy_node
+        curr_pos = 0
 
-        perm_prev.next = prev
-        perm_head.next = cur
-            
-        return dummy.next
-            
-            
-            
-            
-        
+        while True:
+            if curr_pos == left-1:
+                prev_node.next = None
+                prev = None
+                first = head
+                for i in range(right - left + 1):
+                    curr = head
+                    head = head.next 
+                    curr.next = prev
+                    prev = curr
+                prev_node.next = prev
+                first.next = head
+                break
+            else:
+                prev_node = prev_node.next
+                head = head.next
+                curr_pos += 1
+        return fix_node.next
+
+                    
