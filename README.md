@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0134-gas-station](https://github.com/chenghong99/LeetCode/tree/master/0134-gas-station) |
 | [1437-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/chenghong99/LeetCode/tree/master/1437-check-if-all-1s-are-at-least-length-k-places-away) |
 | [2154-keep-multiplying-found-values-by-two](https://github.com/chenghong99/LeetCode/tree/master/2154-keep-multiplying-found-values-by-two) |
+| [3583-count-special-triplets](https://github.com/chenghong99/LeetCode/tree/master/3583-count-special-triplets) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/chenghong99/LeetCode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Greedy
 |  |
@@ -44,6 +45,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0141-linked-list-cycle](https://github.com/chenghong99/LeetCode/tree/master/0141-linked-list-cycle) |
 | [2154-keep-multiplying-found-values-by-two](https://github.com/chenghong99/LeetCode/tree/master/2154-keep-multiplying-found-values-by-two) |
+| [3583-count-special-triplets](https://github.com/chenghong99/LeetCode/tree/master/3583-count-special-triplets) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/chenghong99/LeetCode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Linked List
 |  |
@@ -80,4 +82,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2154-keep-multiplying-found-values-by-two](https://github.com/chenghong99/LeetCode/tree/master/2154-keep-multiplying-found-values-by-two) |
+## Counting
+|  |
+| ------- |
+| [3583-count-special-triplets](https://github.com/chenghong99/LeetCode/tree/master/3583-count-special-triplets) |
 <!---LeetCode Topics End-->
