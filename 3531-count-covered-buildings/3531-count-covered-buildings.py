@@ -26,8 +26,7 @@ class Solution(object):
             else:
                 y_dic[c[1]][0] = min(c[0], y_dic[c[1]][0])
                 y_dic[c[1]][1] = max(c[0], y_dic[c[1]][1])
-        print(x_dic)
-        print(y_dic)
+    
         for c in buildings:
             if y_dic[c[1]][0] < c[0] < y_dic[c[1]][1] and x_dic[c[0]][0] < c[1] < x_dic[c[0]][1]:
                 count += 1
