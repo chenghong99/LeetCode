@@ -103,6 +103,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/chenghong99/LeetCode/tree/master/0451-sort-characters-by-frequency) |
 | [2211-count-collisions-on-a-road](https://github.com/chenghong99/LeetCode/tree/master/2211-count-collisions-on-a-road) |
+| [2483-minimum-penalty-for-a-shop](https://github.com/chenghong99/LeetCode/tree/master/2483-minimum-penalty-for-a-shop) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -115,4 +116,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/chenghong99/LeetCode/tree/master/1523-count-odd-numbers-in-an-interval-range) |
+## Prefix Sum
+|  |
+| ------- |
+| [2483-minimum-penalty-for-a-shop](https://github.com/chenghong99/LeetCode/tree/master/2483-minimum-penalty-for-a-shop) |
 <!---LeetCode Topics End-->
