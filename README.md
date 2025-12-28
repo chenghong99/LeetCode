@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0134-gas-station](https://github.com/chenghong99/LeetCode/tree/master/0134-gas-station) |
 | [0944-delete-columns-to-make-sorted](https://github.com/chenghong99/LeetCode/tree/master/0944-delete-columns-to-make-sorted) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/chenghong99/LeetCode/tree/master/0955-delete-columns-to-make-sorted-ii) |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/chenghong99/LeetCode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1437-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/chenghong99/LeetCode/tree/master/1437-check-if-all-1s-are-at-least-length-k-places-away) |
 | [2054-two-best-non-overlapping-events](https://github.com/chenghong99/LeetCode/tree/master/2054-two-best-non-overlapping-events) |
 | [2154-keep-multiplying-found-values-by-two](https://github.com/chenghong99/LeetCode/tree/master/2154-keep-multiplying-found-values-by-two) |
@@ -139,6 +140,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/chenghong99/LeetCode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [2054-two-best-non-overlapping-events](https://github.com/chenghong99/LeetCode/tree/master/2054-two-best-non-overlapping-events) |
 ## Dynamic Programming
 |  |
@@ -148,4 +150,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/chenghong99/LeetCode/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
+## Matrix
+|  |
+| ------- |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/chenghong99/LeetCode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 <!---LeetCode Topics End-->
