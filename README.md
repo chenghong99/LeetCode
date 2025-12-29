@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/chenghong99/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0134-gas-station](https://github.com/chenghong99/LeetCode/tree/master/0134-gas-station) |
 | [0287-find-the-duplicate-number](https://github.com/chenghong99/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0944-delete-columns-to-make-sorted](https://github.com/chenghong99/LeetCode/tree/master/0944-delete-columns-to-make-sorted) |
@@ -91,11 +92,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/chenghong99/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [2211-count-collisions-on-a-road](https://github.com/chenghong99/LeetCode/tree/master/2211-count-collisions-on-a-road) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/chenghong99/LeetCode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Monotonic Stack
 |  |
 | ------- |
+| [0084-largest-rectangle-in-histogram](https://github.com/chenghong99/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/chenghong99/LeetCode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Sorting
 |  |
