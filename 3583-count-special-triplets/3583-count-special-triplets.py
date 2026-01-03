@@ -1,27 +1,23 @@
-import math
-class Solution(object):
-    def specialTriplets(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
+class Solution:
+    def specialTriplets(self, nums: List[int]) -> int:
+        ## iterate once and count all occurence of each number
+        ## iterate one more time, at each iteration update a new dic and count the occurence 
+        ## subtract from the first dic to get the number of occurence at the left 
 
-        ## traverse from the right and keep track of the numbers visited in a dictionary.
-
-        count = 0
+        total_occurence = {}
+        ans = 0
         MOD = 10**9 + 7
-        dic = {}
-        traverse_dic = {}
 
         for i in nums:
-            dic[i] = dic.get(i, 0) + 1
+            total_occurence[i] = total_occurence.get(i, 0) + 1
 
-        for j in nums:
-            left = traverse_dic.get(j * 2, 0) 
-            traverse_dic[j] = traverse_dic.get(j, 0) + 1
-            right = dic.get(j * 2, 0) - traverse_dic.get(j * 2, 0)
-            count = (count + right * left) % MOD
+        curr_occurence = {}
+        for i in nums:
+            target = i * 2
+            left = curr_occurence.get(target, 0)
+            curr_occurence[i] = curr_occurence.get(i, 0) + 1
+            ans = (ans + left * (total_occurence.get(target, 0) - curr_occurence.get(target, 0))) % MOD
+            
 
-        return count
+        return ans
 
-        
