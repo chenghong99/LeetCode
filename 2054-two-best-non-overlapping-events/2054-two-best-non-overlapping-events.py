@@ -1,28 +1,18 @@
-class Solution(object):
-    def maxTwoEvents(self, events):
-        """
-        :type events: List[List[int]]
-        :rtype: int
-        """
-
-        ## first sort the events by start time, then remove from smallest start time. at each start time continously iterate the pq to remove earlier events after each removal add the event to a pq. store the largest value before curr event. 
-
-        prev_max_val = 0
-        heap = [] ## empty heap to store prev events, 
-        ## events consist of end time and value in [time, value] format 
-        max_sum = 0
+class Solution:
+    def maxTwoEvents(self, events: List[List[int]]) -> int:
+        ## sort by start time, at each time continuously pop the pq until either the pq is empty or the remaining end time is larger than the current start time. add in current event. 
 
         events.sort(key = lambda x: x[0])
-        for event in events:
-            while heap and heap[0][0] < event[0]:
-                temp_prev = heapq.heappop(heap)
-                prev_max_val = max(prev_max_val, temp_prev[1])
+        heap = []
+        prev_max, total_max = 0, 0
 
-            max_sum = max(max_sum, prev_max_val + event[2])
-            heapq.heappush(heap, [event[1], event[2]])
+        for i in events:
+            while heap and heap[0][0] < i[0]:
+                temp = heapq.heappop(heap)
+                prev_max = max(prev_max, temp[1])
 
-        return max_sum
-
-
+            total_max = max(total_max, prev_max + i[2])
+            heapq.heappush(heap,[i[1], i[2]])
+        return total_max
 
         
