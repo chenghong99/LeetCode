@@ -1,6 +1,6 @@
 # Write your MySQL query statement below
 select 
-b.unique_id
+unique_id
 ,name
-from Employees a
-left join EmployeeUNI b on a.id = b.id 
+from EmployeeUNI a
+right join Employees b on a.id = b.id 
