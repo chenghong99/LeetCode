@@ -42,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0100-same-tree](https://github.com/chenghong99/LeetCode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/chenghong99/LeetCode/tree/master/0101-symmetric-tree) |
 | [0226-invert-binary-tree](https://github.com/chenghong99/LeetCode/tree/master/0226-invert-binary-tree) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/chenghong99/LeetCode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/chenghong99/LeetCode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 ## Depth-First Search
 |  |
@@ -49,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0100-same-tree](https://github.com/chenghong99/LeetCode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/chenghong99/LeetCode/tree/master/0101-symmetric-tree) |
 | [0226-invert-binary-tree](https://github.com/chenghong99/LeetCode/tree/master/0226-invert-binary-tree) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/chenghong99/LeetCode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/chenghong99/LeetCode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -56,12 +58,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0100-same-tree](https://github.com/chenghong99/LeetCode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/chenghong99/LeetCode/tree/master/0101-symmetric-tree) |
 | [0226-invert-binary-tree](https://github.com/chenghong99/LeetCode/tree/master/0226-invert-binary-tree) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/chenghong99/LeetCode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 ## Binary Tree
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/chenghong99/LeetCode/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/chenghong99/LeetCode/tree/master/0101-symmetric-tree) |
 | [0226-invert-binary-tree](https://github.com/chenghong99/LeetCode/tree/master/0226-invert-binary-tree) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/chenghong99/LeetCode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/chenghong99/LeetCode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 ## Hash Table
 |  |
@@ -70,6 +74,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0142-linked-list-cycle-ii](https://github.com/chenghong99/LeetCode/tree/master/0142-linked-list-cycle-ii) |
 | [0451-sort-characters-by-frequency](https://github.com/chenghong99/LeetCode/tree/master/0451-sort-characters-by-frequency) |
 | [0817-linked-list-components](https://github.com/chenghong99/LeetCode/tree/master/0817-linked-list-components) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/chenghong99/LeetCode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [2154-keep-multiplying-found-values-by-two](https://github.com/chenghong99/LeetCode/tree/master/2154-keep-multiplying-found-values-by-two) |
 | [2170-minimum-operations-to-make-the-array-alternating](https://github.com/chenghong99/LeetCode/tree/master/2170-minimum-operations-to-make-the-array-alternating) |
 | [3217-delete-nodes-from-linked-list-present-in-array](https://github.com/chenghong99/LeetCode/tree/master/3217-delete-nodes-from-linked-list-present-in-array) |
