@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0817-linked-list-components](https://github.com/chenghong99/LeetCode/tree/master/0817-linked-list-components) |
 | [0944-delete-columns-to-make-sorted](https://github.com/chenghong99/LeetCode/tree/master/0944-delete-columns-to-make-sorted) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/chenghong99/LeetCode/tree/master/0955-delete-columns-to-make-sorted-ii) |
+| [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/chenghong99/LeetCode/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/chenghong99/LeetCode/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1390-four-divisors](https://github.com/chenghong99/LeetCode/tree/master/1390-four-divisors) |
 | [1437-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/chenghong99/LeetCode/tree/master/1437-check-if-all-1s-are-at-least-length-k-places-away) |
@@ -32,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0134-gas-station](https://github.com/chenghong99/LeetCode/tree/master/0134-gas-station) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/chenghong99/LeetCode/tree/master/0955-delete-columns-to-make-sorted-ii) |
+| [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/chenghong99/LeetCode/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [2170-minimum-operations-to-make-the-array-alternating](https://github.com/chenghong99/LeetCode/tree/master/2170-minimum-operations-to-make-the-array-alternating) |
 | [3074-apple-redistribution-into-boxes](https://github.com/chenghong99/LeetCode/tree/master/3074-apple-redistribution-into-boxes) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/chenghong99/LeetCode/tree/master/3075-maximize-happiness-of-selected-children) |
@@ -75,6 +77,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0451-sort-characters-by-frequency](https://github.com/chenghong99/LeetCode/tree/master/0451-sort-characters-by-frequency) |
 | [0817-linked-list-components](https://github.com/chenghong99/LeetCode/tree/master/0817-linked-list-components) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/chenghong99/LeetCode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
+| [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/chenghong99/LeetCode/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [2154-keep-multiplying-found-values-by-two](https://github.com/chenghong99/LeetCode/tree/master/2154-keep-multiplying-found-values-by-two) |
 | [2170-minimum-operations-to-make-the-array-alternating](https://github.com/chenghong99/LeetCode/tree/master/2170-minimum-operations-to-make-the-array-alternating) |
 | [3217-delete-nodes-from-linked-list-present-in-array](https://github.com/chenghong99/LeetCode/tree/master/3217-delete-nodes-from-linked-list-present-in-array) |
