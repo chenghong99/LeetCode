@@ -9,10 +9,10 @@ class Solution:
         for pos, size in enumerate(groupSizes):
             if hashmap.get(size) == None:
                 hashmap[size] = []
-            hashmap.get(size).append(pos)
+            hashmap[size].append(pos)
 
-            if len(hashmap.get(size)) == size:
-                output.append(hashmap.get(size))
+            if len(hashmap[size]) == size:
+                output.append(hashmap[size])
                 hashmap[size] = []
        
         return output
