@@ -4,19 +4,17 @@ class Solution:
         ## for each key, value group the people together. 
 
         hashmap = {}
+        output = []
 
         for pos, size in enumerate(groupSizes):
             if hashmap.get(size) == None:
                 hashmap[size] = []
             hashmap.get(size).append(pos)
 
-        output = []
-        for key, value in hashmap.items():
-            for i in range(0, len(value), key):
-                temp = []
-                for j in range(i, i + key):
-                    temp.append(value[j])
-                output.append(temp)
+            if len(hashmap.get(size)) == size:
+                output.append(hashmap.get(size))
+                hashmap[size] = []
+       
         return output
 
         
