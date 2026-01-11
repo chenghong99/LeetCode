@@ -10,7 +10,7 @@ class Solution:
             if nums[l] + nums[r] > target:
                 r -= 1
             else:
-                output += pow(2, r-l)
+                output = (output + pow(2, r-l)) % mod
                 l += 1
-        return output % mod
+        return output 
 
