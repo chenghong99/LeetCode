@@ -26,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2170-minimum-operations-to-make-the-array-alternating](https://github.com/chenghong99/LeetCode/tree/master/2170-minimum-operations-to-make-the-array-alternating) |
 | [2270-number-of-ways-to-split-array](https://github.com/chenghong99/LeetCode/tree/master/2270-number-of-ways-to-split-array) |
 | [2559-count-vowel-strings-in-ranges](https://github.com/chenghong99/LeetCode/tree/master/2559-count-vowel-strings-in-ranges) |
+| [2575-find-the-divisibility-array-of-a-string](https://github.com/chenghong99/LeetCode/tree/master/2575-find-the-divisibility-array-of-a-string) |
 | [3074-apple-redistribution-into-boxes](https://github.com/chenghong99/LeetCode/tree/master/3074-apple-redistribution-into-boxes) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/chenghong99/LeetCode/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3217-delete-nodes-from-linked-list-present-in-array](https://github.com/chenghong99/LeetCode/tree/master/3217-delete-nodes-from-linked-list-present-in-array) |
@@ -162,6 +163,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2211-count-collisions-on-a-road](https://github.com/chenghong99/LeetCode/tree/master/2211-count-collisions-on-a-road) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/chenghong99/LeetCode/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2559-count-vowel-strings-in-ranges](https://github.com/chenghong99/LeetCode/tree/master/2559-count-vowel-strings-in-ranges) |
+| [2575-find-the-divisibility-array-of-a-string](https://github.com/chenghong99/LeetCode/tree/master/2575-find-the-divisibility-array-of-a-string) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -177,6 +179,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0066-plus-one](https://github.com/chenghong99/LeetCode/tree/master/0066-plus-one) |
 | [1390-four-divisors](https://github.com/chenghong99/LeetCode/tree/master/1390-four-divisors) |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/chenghong99/LeetCode/tree/master/1523-count-odd-numbers-in-an-interval-range) |
+| [2575-find-the-divisibility-array-of-a-string](https://github.com/chenghong99/LeetCode/tree/master/2575-find-the-divisibility-array-of-a-string) |
 ## Prefix Sum
 |  |
 | ------- |
