@@ -87,6 +87,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/chenghong99/LeetCode/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [1497-check-if-array-pairs-are-divisible-by-k](https://github.com/chenghong99/LeetCode/tree/master/1497-check-if-array-pairs-are-divisible-by-k) |
 | [1590-make-sum-divisible-by-p](https://github.com/chenghong99/LeetCode/tree/master/1590-make-sum-divisible-by-p) |
+| [1930-unique-length-3-palindromic-subsequences](https://github.com/chenghong99/LeetCode/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2154-keep-multiplying-found-values-by-two](https://github.com/chenghong99/LeetCode/tree/master/2154-keep-multiplying-found-values-by-two) |
 | [2170-minimum-operations-to-make-the-array-alternating](https://github.com/chenghong99/LeetCode/tree/master/2170-minimum-operations-to-make-the-array-alternating) |
 | [3217-delete-nodes-from-linked-list-present-in-array](https://github.com/chenghong99/LeetCode/tree/master/3217-delete-nodes-from-linked-list-present-in-array) |
@@ -160,6 +161,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0451-sort-characters-by-frequency](https://github.com/chenghong99/LeetCode/tree/master/0451-sort-characters-by-frequency) |
 | [0944-delete-columns-to-make-sorted](https://github.com/chenghong99/LeetCode/tree/master/0944-delete-columns-to-make-sorted) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/chenghong99/LeetCode/tree/master/0955-delete-columns-to-make-sorted-ii) |
+| [1930-unique-length-3-palindromic-subsequences](https://github.com/chenghong99/LeetCode/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2211-count-collisions-on-a-road](https://github.com/chenghong99/LeetCode/tree/master/2211-count-collisions-on-a-road) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/chenghong99/LeetCode/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2559-count-vowel-strings-in-ranges](https://github.com/chenghong99/LeetCode/tree/master/2559-count-vowel-strings-in-ranges) |
@@ -185,6 +187,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/chenghong99/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [1590-make-sum-divisible-by-p](https://github.com/chenghong99/LeetCode/tree/master/1590-make-sum-divisible-by-p) |
+| [1930-unique-length-3-palindromic-subsequences](https://github.com/chenghong99/LeetCode/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2270-number-of-ways-to-split-array](https://github.com/chenghong99/LeetCode/tree/master/2270-number-of-ways-to-split-array) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/chenghong99/LeetCode/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2559-count-vowel-strings-in-ranges](https://github.com/chenghong99/LeetCode/tree/master/2559-count-vowel-strings-in-ranges) |
@@ -211,4 +214,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/chenghong99/LeetCode/tree/master/0287-find-the-duplicate-number) |
+| [1930-unique-length-3-palindromic-subsequences](https://github.com/chenghong99/LeetCode/tree/master/1930-unique-length-3-palindromic-subsequences) |
 <!---LeetCode Topics End-->
