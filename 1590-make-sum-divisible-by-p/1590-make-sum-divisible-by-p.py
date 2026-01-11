@@ -8,11 +8,9 @@ class Solution:
 
         prefix = {0:-1} ## initialise with 0:-1 base case 
         curr_sum = 0
-        cum_sum = 0
 
         for pos, num in enumerate(nums):
-            cum_sum += num
-            curr_sum = cum_sum % p
+            curr_sum = (curr_sum + num) % p
             curr_target = (curr_sum - target + p) % p ## current target to look up in prefix
             if prefix.get(curr_target) != None:
                 min_len = min(min_len, pos - prefix.get(curr_target)) ## update min len to remove 
