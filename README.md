@@ -24,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2054-two-best-non-overlapping-events](https://github.com/chenghong99/LeetCode/tree/master/2054-two-best-non-overlapping-events) |
 | [2154-keep-multiplying-found-values-by-two](https://github.com/chenghong99/LeetCode/tree/master/2154-keep-multiplying-found-values-by-two) |
 | [2170-minimum-operations-to-make-the-array-alternating](https://github.com/chenghong99/LeetCode/tree/master/2170-minimum-operations-to-make-the-array-alternating) |
+| [2270-number-of-ways-to-split-array](https://github.com/chenghong99/LeetCode/tree/master/2270-number-of-ways-to-split-array) |
 | [3074-apple-redistribution-into-boxes](https://github.com/chenghong99/LeetCode/tree/master/3074-apple-redistribution-into-boxes) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/chenghong99/LeetCode/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3217-delete-nodes-from-linked-list-present-in-array](https://github.com/chenghong99/LeetCode/tree/master/3217-delete-nodes-from-linked-list-present-in-array) |
@@ -179,6 +180,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/chenghong99/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [1590-make-sum-divisible-by-p](https://github.com/chenghong99/LeetCode/tree/master/1590-make-sum-divisible-by-p) |
+| [2270-number-of-ways-to-split-array](https://github.com/chenghong99/LeetCode/tree/master/2270-number-of-ways-to-split-array) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/chenghong99/LeetCode/tree/master/2483-minimum-penalty-for-a-shop) |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/chenghong99/LeetCode/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
 ## Binary Search
