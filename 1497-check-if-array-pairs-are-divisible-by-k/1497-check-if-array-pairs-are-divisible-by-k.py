@@ -15,6 +15,8 @@ class Solution:
             if inverse == key: ## ie looking for the same key, make sure that key is even
                 if hashmap.get(key) % 2 == 0:
                     hashmap.pop(key)
+                else:
+                    return False
 
             elif hashmap.get(inverse) and hashmap.get(inverse) == hashmap.get(key):
                 hashmap.pop(inverse)
