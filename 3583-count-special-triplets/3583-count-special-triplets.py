@@ -1,23 +1,24 @@
 class Solution:
     def specialTriplets(self, nums: List[int]) -> int:
-        ## iterate once and count all occurence of each number
-        ## iterate one more time, at each iteration update a new dic and count the occurence 
-        ## subtract from the first dic to get the number of occurence at the left 
+        ## 2 maps -> first map to count all occurence of numberd 
+        ## second map iterate and populate left num, first map - second map to get right numbers
 
-        total_occurence = {}
-        ans = 0
+        total_map = {}
+        for num in nums:
+            total_map[num] = total_map.get(num, 0) + 1 ## populate map with all num
+
+        iter_map = {}
+        output = 0
         MOD = 10**9 + 7
+        for num in nums:
+            target = num * 2
+            if target in iter_map and target in total_map and total_map[target] - iter_map[target] > 0:
+                left = iter_map[target]
+                iter_map[num] = iter_map.get(num, 0) + 1
+                output += (left * (total_map[target] - iter_map[target]))
+            else:
+                iter_map[num] = iter_map.get(num, 0) + 1
 
-        for i in nums:
-            total_occurence[i] = total_occurence.get(i, 0) + 1
+        return output % MOD
 
-        curr_occurence = {}
-        for i in nums:
-            target = i * 2
-            left = curr_occurence.get(target, 0)
-            curr_occurence[i] = curr_occurence.get(i, 0) + 1
-            ans = (ans + left * (total_occurence.get(target, 0) - curr_occurence.get(target, 0))) % MOD
-            
-
-        return ans
-
+        
