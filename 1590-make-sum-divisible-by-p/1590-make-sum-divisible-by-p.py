@@ -1,22 +1,21 @@
 class Solution:
     def minSubarray(self, nums: List[int], p: int) -> int:
-        target = sum(nums) % p ## find this number or the smallest subset that sums to this number
-        min_len = len(nums) ## start reducing this number using (pos - prefix_pos)
+        ## target for this mod = total_sum % 6 removing the smallest subarray that makes this mod is the ans 
+        target = sum(nums) % p
 
         if target == 0:
-            return 0 
+            return 0
 
-        prefix = {0:-1} ## initialise with 0:-1 base case 
+        mod_map = {0:-1} ## store prefix sum of mod map 
         curr_sum = 0
+        small_len = len(nums)
 
-        for pos, num in enumerate(nums):
-            curr_sum = (curr_sum + num) % p
-            curr_target = (curr_sum - target + p) % p ## current target to look up in prefix
-            if prefix.get(curr_target) != None:
-                min_len = min(min_len, pos - prefix.get(curr_target)) ## update min len to remove 
-            prefix[curr_sum] = pos ## update latest pos for prefix sum every iteration
+        for i, num in enumerate(nums):
+            curr_sum = (curr_sum + num) % p ## current modulo
+            to_find = (curr_sum - target + p) % p ## number to find 
+            if to_find in mod_map:
+                small_len = min(small_len, i - mod_map[to_find])
+            mod_map[curr_sum] = i
 
-        return -1 if min_len == len(nums) else min_len
+        return -1 if small_len == len(nums) else small_len
 
-
-        
