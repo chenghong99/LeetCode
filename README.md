@@ -126,6 +126,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0570-managers-with-at-least-5-direct-reports](https://github.com/chenghong99/LeetCode/tree/master/0570-managers-with-at-least-5-direct-reports) |
 | [0584-find-customer-referee](https://github.com/chenghong99/LeetCode/tree/master/0584-find-customer-referee) |
 | [0585-investments-in-2016](https://github.com/chenghong99/LeetCode/tree/master/0585-investments-in-2016) |
+| [1341-movie-rating](https://github.com/chenghong99/LeetCode/tree/master/1341-movie-rating) |
 | [1378-replace-employee-id-with-the-unique-identifier](https://github.com/chenghong99/LeetCode/tree/master/1378-replace-employee-id-with-the-unique-identifier) |
 | [1908-recyclable-and-low-fat-products](https://github.com/chenghong99/LeetCode/tree/master/1908-recyclable-and-low-fat-products) |
 | [3601-find-drivers-with-improved-fuel-efficiency](https://github.com/chenghong99/LeetCode/tree/master/3601-find-drivers-with-improved-fuel-efficiency) |
