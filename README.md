@@ -31,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2575-find-the-divisibility-array-of-a-string](https://github.com/chenghong99/LeetCode/tree/master/2575-find-the-divisibility-array-of-a-string) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/chenghong99/LeetCode/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/chenghong99/LeetCode/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
+| [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/chenghong99/LeetCode/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3074-apple-redistribution-into-boxes](https://github.com/chenghong99/LeetCode/tree/master/3074-apple-redistribution-into-boxes) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/chenghong99/LeetCode/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3217-delete-nodes-from-linked-list-present-in-array](https://github.com/chenghong99/LeetCode/tree/master/3217-delete-nodes-from-linked-list-present-in-array) |
@@ -195,6 +196,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1390-four-divisors](https://github.com/chenghong99/LeetCode/tree/master/1390-four-divisors) |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/chenghong99/LeetCode/tree/master/1523-count-odd-numbers-in-an-interval-range) |
 | [2575-find-the-divisibility-array-of-a-string](https://github.com/chenghong99/LeetCode/tree/master/2575-find-the-divisibility-array-of-a-string) |
+| [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/chenghong99/LeetCode/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -233,4 +235,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/chenghong99/LeetCode/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
+## Geometry
+|  |
+| ------- |
+| [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/chenghong99/LeetCode/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 <!---LeetCode Topics End-->
