@@ -58,6 +58,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0226-invert-binary-tree](https://github.com/chenghong99/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/chenghong99/LeetCode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/chenghong99/LeetCode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
+| [2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/chenghong99/LeetCode/tree/master/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -73,6 +74,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0101-symmetric-tree](https://github.com/chenghong99/LeetCode/tree/master/0101-symmetric-tree) |
 | [0226-invert-binary-tree](https://github.com/chenghong99/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/chenghong99/LeetCode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
+| [2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/chenghong99/LeetCode/tree/master/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 ## Binary Tree
 |  |
 | ------- |
@@ -81,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0226-invert-binary-tree](https://github.com/chenghong99/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/chenghong99/LeetCode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/chenghong99/LeetCode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
+| [2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/chenghong99/LeetCode/tree/master/2471-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 ## Hash Table
 |  |
 | ------- |
