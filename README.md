@@ -38,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3531-count-covered-buildings](https://github.com/chenghong99/LeetCode/tree/master/3531-count-covered-buildings) |
 | [3583-count-special-triplets](https://github.com/chenghong99/LeetCode/tree/master/3583-count-special-triplets) |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/chenghong99/LeetCode/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
+| [3698-split-array-with-minimum-difference](https://github.com/chenghong99/LeetCode/tree/master/3698-split-array-with-minimum-difference) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/chenghong99/LeetCode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Greedy
 |  |
@@ -212,6 +213,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2483-minimum-penalty-for-a-shop](https://github.com/chenghong99/LeetCode/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2559-count-vowel-strings-in-ranges](https://github.com/chenghong99/LeetCode/tree/master/2559-count-vowel-strings-in-ranges) |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/chenghong99/LeetCode/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
+| [3698-split-array-with-minimum-difference](https://github.com/chenghong99/LeetCode/tree/master/3698-split-array-with-minimum-difference) |
 ## Binary Search
 |  |
 | ------- |
