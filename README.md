@@ -94,6 +94,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0560-subarray-sum-equals-k](https://github.com/chenghong99/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0817-linked-list-components](https://github.com/chenghong99/LeetCode/tree/master/0817-linked-list-components) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/chenghong99/LeetCode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
+| [0970-powerful-integers](https://github.com/chenghong99/LeetCode/tree/master/0970-powerful-integers) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/chenghong99/LeetCode/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [1497-check-if-array-pairs-are-divisible-by-k](https://github.com/chenghong99/LeetCode/tree/master/1497-check-if-array-pairs-are-divisible-by-k) |
 | [1590-make-sum-divisible-by-p](https://github.com/chenghong99/LeetCode/tree/master/1590-make-sum-divisible-by-p) |
@@ -200,6 +201,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0066-plus-one](https://github.com/chenghong99/LeetCode/tree/master/0066-plus-one) |
+| [0970-powerful-integers](https://github.com/chenghong99/LeetCode/tree/master/0970-powerful-integers) |
 | [1390-four-divisors](https://github.com/chenghong99/LeetCode/tree/master/1390-four-divisors) |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/chenghong99/LeetCode/tree/master/1523-count-odd-numbers-in-an-interval-range) |
 | [2575-find-the-divisibility-array-of-a-string](https://github.com/chenghong99/LeetCode/tree/master/2575-find-the-divisibility-array-of-a-string) |
@@ -245,6 +247,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Enumeration
 |  |
 | ------- |
+| [0970-powerful-integers](https://github.com/chenghong99/LeetCode/tree/master/0970-powerful-integers) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/chenghong99/LeetCode/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 ## Geometry
 |  |
