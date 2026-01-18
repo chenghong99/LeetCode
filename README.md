@@ -35,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3074-apple-redistribution-into-boxes](https://github.com/chenghong99/LeetCode/tree/master/3074-apple-redistribution-into-boxes) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/chenghong99/LeetCode/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3217-delete-nodes-from-linked-list-present-in-array](https://github.com/chenghong99/LeetCode/tree/master/3217-delete-nodes-from-linked-list-present-in-array) |
+| [3318-find-x-sum-of-all-k-long-subarrays-i](https://github.com/chenghong99/LeetCode/tree/master/3318-find-x-sum-of-all-k-long-subarrays-i) |
 | [3531-count-covered-buildings](https://github.com/chenghong99/LeetCode/tree/master/3531-count-covered-buildings) |
 | [3583-count-special-triplets](https://github.com/chenghong99/LeetCode/tree/master/3583-count-special-triplets) |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/chenghong99/LeetCode/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
@@ -104,6 +105,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/chenghong99/LeetCode/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/chenghong99/LeetCode/tree/master/3121-count-the-number-of-special-characters-ii) |
 | [3217-delete-nodes-from-linked-list-present-in-array](https://github.com/chenghong99/LeetCode/tree/master/3217-delete-nodes-from-linked-list-present-in-array) |
+| [3318-find-x-sum-of-all-k-long-subarrays-i](https://github.com/chenghong99/LeetCode/tree/master/3318-find-x-sum-of-all-k-long-subarrays-i) |
 | [3531-count-covered-buildings](https://github.com/chenghong99/LeetCode/tree/master/3531-count-covered-buildings) |
 | [3583-count-special-triplets](https://github.com/chenghong99/LeetCode/tree/master/3583-count-special-triplets) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/chenghong99/LeetCode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
@@ -193,6 +195,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/chenghong99/LeetCode/tree/master/0451-sort-characters-by-frequency) |
 | [2054-two-best-non-overlapping-events](https://github.com/chenghong99/LeetCode/tree/master/2054-two-best-non-overlapping-events) |
+| [3318-find-x-sum-of-all-k-long-subarrays-i](https://github.com/chenghong99/LeetCode/tree/master/3318-find-x-sum-of-all-k-long-subarrays-i) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -234,6 +237,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1208-get-equal-substrings-within-budget](https://github.com/chenghong99/LeetCode/tree/master/1208-get-equal-substrings-within-budget) |
+| [3318-find-x-sum-of-all-k-long-subarrays-i](https://github.com/chenghong99/LeetCode/tree/master/3318-find-x-sum-of-all-k-long-subarrays-i) |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/chenghong99/LeetCode/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
 ## Matrix
 |  |
