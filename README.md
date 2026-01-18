@@ -93,6 +93,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0141-linked-list-cycle](https://github.com/chenghong99/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/chenghong99/LeetCode/tree/master/0142-linked-list-cycle-ii) |
+| [0264-ugly-number-ii](https://github.com/chenghong99/LeetCode/tree/master/0264-ugly-number-ii) |
 | [0451-sort-characters-by-frequency](https://github.com/chenghong99/LeetCode/tree/master/0451-sort-characters-by-frequency) |
 | [0560-subarray-sum-equals-k](https://github.com/chenghong99/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0817-linked-list-components](https://github.com/chenghong99/LeetCode/tree/master/0817-linked-list-components) |
@@ -196,6 +197,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0264-ugly-number-ii](https://github.com/chenghong99/LeetCode/tree/master/0264-ugly-number-ii) |
 | [0451-sort-characters-by-frequency](https://github.com/chenghong99/LeetCode/tree/master/0451-sort-characters-by-frequency) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/chenghong99/LeetCode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [2054-two-best-non-overlapping-events](https://github.com/chenghong99/LeetCode/tree/master/2054-two-best-non-overlapping-events) |
@@ -208,6 +210,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0066-plus-one](https://github.com/chenghong99/LeetCode/tree/master/0066-plus-one) |
+| [0264-ugly-number-ii](https://github.com/chenghong99/LeetCode/tree/master/0264-ugly-number-ii) |
 | [0970-powerful-integers](https://github.com/chenghong99/LeetCode/tree/master/0970-powerful-integers) |
 | [1390-four-divisors](https://github.com/chenghong99/LeetCode/tree/master/1390-four-divisors) |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/chenghong99/LeetCode/tree/master/1523-count-odd-numbers-in-an-interval-range) |
@@ -237,6 +240,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0264-ugly-number-ii](https://github.com/chenghong99/LeetCode/tree/master/0264-ugly-number-ii) |
 | [2054-two-best-non-overlapping-events](https://github.com/chenghong99/LeetCode/tree/master/2054-two-best-non-overlapping-events) |
 ## Sliding Window
 |  |
