@@ -4,7 +4,7 @@ class Solution:
         nums1_set = set(nums1)
         nums2_set = set(nums2)
 
-        overlap = list(nums1_set.intersection(nums2_set))
+        overlap = [num for num in nums1_set if num in nums2_set]
 
         remaining_set1 = min(len(nums1_set) - len(overlap), len(nums1) // 2)
         remaining_set2 = min(len(nums2_set) - len(overlap), len(nums2) // 2)
