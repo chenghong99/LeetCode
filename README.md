@@ -32,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2575-find-the-divisibility-array-of-a-string](https://github.com/chenghong99/LeetCode/tree/master/2575-find-the-divisibility-array-of-a-string) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/chenghong99/LeetCode/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/chenghong99/LeetCode/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
+| [3002-maximum-size-of-a-set-after-removals](https://github.com/chenghong99/LeetCode/tree/master/3002-maximum-size-of-a-set-after-removals) |
 | [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/chenghong99/LeetCode/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
 | [3074-apple-redistribution-into-boxes](https://github.com/chenghong99/LeetCode/tree/master/3074-apple-redistribution-into-boxes) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/chenghong99/LeetCode/tree/master/3075-maximize-happiness-of-selected-children) |
@@ -52,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/chenghong99/LeetCode/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [2170-minimum-operations-to-make-the-array-alternating](https://github.com/chenghong99/LeetCode/tree/master/2170-minimum-operations-to-make-the-array-alternating) |
 | [2279-maximum-bags-with-full-capacity-of-rocks](https://github.com/chenghong99/LeetCode/tree/master/2279-maximum-bags-with-full-capacity-of-rocks) |
+| [3002-maximum-size-of-a-set-after-removals](https://github.com/chenghong99/LeetCode/tree/master/3002-maximum-size-of-a-set-after-removals) |
 | [3074-apple-redistribution-into-boxes](https://github.com/chenghong99/LeetCode/tree/master/3074-apple-redistribution-into-boxes) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/chenghong99/LeetCode/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/chenghong99/LeetCode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
@@ -112,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2170-minimum-operations-to-make-the-array-alternating](https://github.com/chenghong99/LeetCode/tree/master/2170-minimum-operations-to-make-the-array-alternating) |
 | [2729-check-if-the-number-is-fascinating](https://github.com/chenghong99/LeetCode/tree/master/2729-check-if-the-number-is-fascinating) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/chenghong99/LeetCode/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
+| [3002-maximum-size-of-a-set-after-removals](https://github.com/chenghong99/LeetCode/tree/master/3002-maximum-size-of-a-set-after-removals) |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/chenghong99/LeetCode/tree/master/3121-count-the-number-of-special-characters-ii) |
 | [3217-delete-nodes-from-linked-list-present-in-array](https://github.com/chenghong99/LeetCode/tree/master/3217-delete-nodes-from-linked-list-present-in-array) |
 | [3318-find-x-sum-of-all-k-long-subarrays-i](https://github.com/chenghong99/LeetCode/tree/master/3318-find-x-sum-of-all-k-long-subarrays-i) |
