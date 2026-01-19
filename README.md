@@ -41,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3583-count-special-triplets](https://github.com/chenghong99/LeetCode/tree/master/3583-count-special-triplets) |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/chenghong99/LeetCode/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
 | [3698-split-array-with-minimum-difference](https://github.com/chenghong99/LeetCode/tree/master/3698-split-array-with-minimum-difference) |
+| [3779-minimum-number-of-operations-to-have-distinct-elements](https://github.com/chenghong99/LeetCode/tree/master/3779-minimum-number-of-operations-to-have-distinct-elements) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/chenghong99/LeetCode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Greedy
 |  |
@@ -116,6 +117,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3318-find-x-sum-of-all-k-long-subarrays-i](https://github.com/chenghong99/LeetCode/tree/master/3318-find-x-sum-of-all-k-long-subarrays-i) |
 | [3531-count-covered-buildings](https://github.com/chenghong99/LeetCode/tree/master/3531-count-covered-buildings) |
 | [3583-count-special-triplets](https://github.com/chenghong99/LeetCode/tree/master/3583-count-special-triplets) |
+| [3779-minimum-number-of-operations-to-have-distinct-elements](https://github.com/chenghong99/LeetCode/tree/master/3779-minimum-number-of-operations-to-have-distinct-elements) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/chenghong99/LeetCode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Linked List
 |  |
