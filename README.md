@@ -24,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1590-make-sum-divisible-by-p](https://github.com/chenghong99/LeetCode/tree/master/1590-make-sum-divisible-by-p) |
 | [1813-sentence-similarity-iii](https://github.com/chenghong99/LeetCode/tree/master/1813-sentence-similarity-iii) |
 | [1929-concatenation-of-array](https://github.com/chenghong99/LeetCode/tree/master/1929-concatenation-of-array) |
+| [1936-add-minimum-number-of-rungs](https://github.com/chenghong99/LeetCode/tree/master/1936-add-minimum-number-of-rungs) |
 | [2054-two-best-non-overlapping-events](https://github.com/chenghong99/LeetCode/tree/master/2054-two-best-non-overlapping-events) |
 | [2154-keep-multiplying-found-values-by-two](https://github.com/chenghong99/LeetCode/tree/master/2154-keep-multiplying-found-values-by-two) |
 | [2170-minimum-operations-to-make-the-array-alternating](https://github.com/chenghong99/LeetCode/tree/master/2170-minimum-operations-to-make-the-array-alternating) |
@@ -54,6 +55,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0134-gas-station](https://github.com/chenghong99/LeetCode/tree/master/0134-gas-station) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/chenghong99/LeetCode/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/chenghong99/LeetCode/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
+| [1936-add-minimum-number-of-rungs](https://github.com/chenghong99/LeetCode/tree/master/1936-add-minimum-number-of-rungs) |
 | [2170-minimum-operations-to-make-the-array-alternating](https://github.com/chenghong99/LeetCode/tree/master/2170-minimum-operations-to-make-the-array-alternating) |
 | [2279-maximum-bags-with-full-capacity-of-rocks](https://github.com/chenghong99/LeetCode/tree/master/2279-maximum-bags-with-full-capacity-of-rocks) |
 | [2587-rearrange-array-to-maximize-prefix-score](https://github.com/chenghong99/LeetCode/tree/master/2587-rearrange-array-to-maximize-prefix-score) |
