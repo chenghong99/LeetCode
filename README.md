@@ -230,6 +230,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2575-find-the-divisibility-array-of-a-string](https://github.com/chenghong99/LeetCode/tree/master/2575-find-the-divisibility-array-of-a-string) |
 | [2729-check-if-the-number-is-fascinating](https://github.com/chenghong99/LeetCode/tree/master/2729-check-if-the-number-is-fascinating) |
 | [3047-find-the-largest-area-of-square-inside-two-rectangles](https://github.com/chenghong99/LeetCode/tree/master/3047-find-the-largest-area-of-square-inside-two-rectangles) |
+| [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/chenghong99/LeetCode/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 ## Prefix Sum
 |  |
 | ------- |
