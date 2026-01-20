@@ -31,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2279-maximum-bags-with-full-capacity-of-rocks](https://github.com/chenghong99/LeetCode/tree/master/2279-maximum-bags-with-full-capacity-of-rocks) |
 | [2559-count-vowel-strings-in-ranges](https://github.com/chenghong99/LeetCode/tree/master/2559-count-vowel-strings-in-ranges) |
 | [2575-find-the-divisibility-array-of-a-string](https://github.com/chenghong99/LeetCode/tree/master/2575-find-the-divisibility-array-of-a-string) |
+| [2587-rearrange-array-to-maximize-prefix-score](https://github.com/chenghong99/LeetCode/tree/master/2587-rearrange-array-to-maximize-prefix-score) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/chenghong99/LeetCode/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/chenghong99/LeetCode/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [3002-maximum-size-of-a-set-after-removals](https://github.com/chenghong99/LeetCode/tree/master/3002-maximum-size-of-a-set-after-removals) |
@@ -54,6 +55,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/chenghong99/LeetCode/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
 | [2170-minimum-operations-to-make-the-array-alternating](https://github.com/chenghong99/LeetCode/tree/master/2170-minimum-operations-to-make-the-array-alternating) |
 | [2279-maximum-bags-with-full-capacity-of-rocks](https://github.com/chenghong99/LeetCode/tree/master/2279-maximum-bags-with-full-capacity-of-rocks) |
+| [2587-rearrange-array-to-maximize-prefix-score](https://github.com/chenghong99/LeetCode/tree/master/2587-rearrange-array-to-maximize-prefix-score) |
 | [3002-maximum-size-of-a-set-after-removals](https://github.com/chenghong99/LeetCode/tree/master/3002-maximum-size-of-a-set-after-removals) |
 | [3074-apple-redistribution-into-boxes](https://github.com/chenghong99/LeetCode/tree/master/3074-apple-redistribution-into-boxes) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/chenghong99/LeetCode/tree/master/3075-maximize-happiness-of-selected-children) |
@@ -176,6 +178,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2054-two-best-non-overlapping-events](https://github.com/chenghong99/LeetCode/tree/master/2054-two-best-non-overlapping-events) |
 | [2154-keep-multiplying-found-values-by-two](https://github.com/chenghong99/LeetCode/tree/master/2154-keep-multiplying-found-values-by-two) |
 | [2279-maximum-bags-with-full-capacity-of-rocks](https://github.com/chenghong99/LeetCode/tree/master/2279-maximum-bags-with-full-capacity-of-rocks) |
+| [2587-rearrange-array-to-maximize-prefix-score](https://github.com/chenghong99/LeetCode/tree/master/2587-rearrange-array-to-maximize-prefix-score) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/chenghong99/LeetCode/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 | [3074-apple-redistribution-into-boxes](https://github.com/chenghong99/LeetCode/tree/master/3074-apple-redistribution-into-boxes) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/chenghong99/LeetCode/tree/master/3075-maximize-happiness-of-selected-children) |
@@ -241,6 +244,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2270-number-of-ways-to-split-array](https://github.com/chenghong99/LeetCode/tree/master/2270-number-of-ways-to-split-array) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/chenghong99/LeetCode/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2559-count-vowel-strings-in-ranges](https://github.com/chenghong99/LeetCode/tree/master/2559-count-vowel-strings-in-ranges) |
+| [2587-rearrange-array-to-maximize-prefix-score](https://github.com/chenghong99/LeetCode/tree/master/2587-rearrange-array-to-maximize-prefix-score) |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/chenghong99/LeetCode/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
 | [3698-split-array-with-minimum-difference](https://github.com/chenghong99/LeetCode/tree/master/3698-split-array-with-minimum-difference) |
 ## Binary Search
