@@ -1,27 +1,12 @@
-import sys 
+class Solution:
+    def findMinArrowShots(self, points: List[List[int]]) -> int:
+        ## sort by start, find overlap and non overlap region and determine how many balloons to shoot 
+        points.sort(key = lambda x: x[1])
+        output = 1
+        prev = points[0][1]
 
-class Solution(object):
-    def findMinArrowShots(self, points):
-        """
-        :type points: List[List[int]]
-        :rtype: int
-        """
-        
-        ans = 1
-        points.sort(key = lambda x : x[1])
-        min_back = points[0][1]
-        
-        
-        for i in range(len(points)):
-            if points[i][0] > min_back:
-                ans += 1
-                min_back = points[i][1]
-
-        return ans
-
-        
-                
-        return ans
-                
-            
-        
+        for start, end in points:
+            if start > prev:
+                output += 1
+                prev = end 
+        return output 
