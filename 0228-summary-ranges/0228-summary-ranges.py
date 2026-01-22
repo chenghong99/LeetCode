@@ -1,29 +1,29 @@
-class Solution(object):
-    def summaryRanges(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: List[str]
-        """
+class Solution:
+    def summaryRanges(self, nums: List[int]) -> List[str]:
+        ## iterate store the head. once range broken update head
         output = []
-        
         if len(nums) == 0:
-            return nums
-        
+            return output
+
         head = nums[0]
-        for i in range(1, len(nums)):
-            if nums[i] - 1 == nums[i - 1]:
-                continue
-            elif head == nums[i - 1]:
-                output.append(str(head))
-                head = nums[i]
+        tail = nums[0]
+
+        for i in nums[1:]:
+            if i == tail + 1:
+                tail = i
             else:
-                ans = str(head) + "->" + str(nums[i - 1])
-                output.append(ans)
-                head = nums[i]
-        if head != nums[-1]:
-            ans = str(head) + "->" + str(nums[-1])
-            output.append(ans)
-        else:
+                if head == tail:
+                    output.append(str(head))
+                else:
+                    output.append(str(head) + "->" + str(tail))
+                head, tail = i, i
+        if head == tail:
             output.append(str(head))
+        else:
+            output.append(str(head) + "->" + str(tail))
         return output
-                
+
+        
+
+
+        
