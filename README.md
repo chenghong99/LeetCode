@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/chenghong99/LeetCode/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1590-make-sum-divisible-by-p](https://github.com/chenghong99/LeetCode/tree/master/1590-make-sum-divisible-by-p) |
 | [1813-sentence-similarity-iii](https://github.com/chenghong99/LeetCode/tree/master/1813-sentence-similarity-iii) |
+| [1877-minimize-maximum-pair-sum-in-array](https://github.com/chenghong99/LeetCode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1929-concatenation-of-array](https://github.com/chenghong99/LeetCode/tree/master/1929-concatenation-of-array) |
 | [1936-add-minimum-number-of-rungs](https://github.com/chenghong99/LeetCode/tree/master/1936-add-minimum-number-of-rungs) |
 | [2054-two-best-non-overlapping-events](https://github.com/chenghong99/LeetCode/tree/master/2054-two-best-non-overlapping-events) |
@@ -62,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/chenghong99/LeetCode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/chenghong99/LeetCode/tree/master/0955-delete-columns-to-make-sorted-ii) |
 | [1282-group-the-people-given-the-group-size-they-belong-to](https://github.com/chenghong99/LeetCode/tree/master/1282-group-the-people-given-the-group-size-they-belong-to) |
+| [1877-minimize-maximum-pair-sum-in-array](https://github.com/chenghong99/LeetCode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [1936-add-minimum-number-of-rungs](https://github.com/chenghong99/LeetCode/tree/master/1936-add-minimum-number-of-rungs) |
 | [2170-minimum-operations-to-make-the-array-alternating](https://github.com/chenghong99/LeetCode/tree/master/2170-minimum-operations-to-make-the-array-alternating) |
 | [2279-maximum-bags-with-full-capacity-of-rocks](https://github.com/chenghong99/LeetCode/tree/master/2279-maximum-bags-with-full-capacity-of-rocks) |
@@ -156,6 +158,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0287-find-the-duplicate-number](https://github.com/chenghong99/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/chenghong99/LeetCode/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1813-sentence-similarity-iii](https://github.com/chenghong99/LeetCode/tree/master/1813-sentence-similarity-iii) |
+| [1877-minimize-maximum-pair-sum-in-array](https://github.com/chenghong99/LeetCode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 ## Recursion
 |  |
 | ------- |
@@ -190,6 +193,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0451-sort-characters-by-frequency](https://github.com/chenghong99/LeetCode/tree/master/0451-sort-characters-by-frequency) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/chenghong99/LeetCode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [1498-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/chenghong99/LeetCode/tree/master/1498-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1877-minimize-maximum-pair-sum-in-array](https://github.com/chenghong99/LeetCode/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [2054-two-best-non-overlapping-events](https://github.com/chenghong99/LeetCode/tree/master/2054-two-best-non-overlapping-events) |
 | [2154-keep-multiplying-found-values-by-two](https://github.com/chenghong99/LeetCode/tree/master/2154-keep-multiplying-found-values-by-two) |
 | [2279-maximum-bags-with-full-capacity-of-rocks](https://github.com/chenghong99/LeetCode/tree/master/2279-maximum-bags-with-full-capacity-of-rocks) |
