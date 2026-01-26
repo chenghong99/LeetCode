@@ -4,7 +4,7 @@ class Solution:
         nums.sort()
         min_max = 0
         for i in range(len(nums)//2):
-            min_max = max(min_max, nums[i] + nums[len(nums) - i - 1])
+            min_max = max(min_max, nums[i] + nums[-i - 1])
 
         return min_max
         
