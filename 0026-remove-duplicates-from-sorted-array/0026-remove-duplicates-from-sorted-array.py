@@ -1,19 +1,14 @@
-class Solution(object):
-    def removeDuplicates(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
-        if len(nums) == 0:
-            return 0
-        curr = 1
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        interim_pos = 1
         prev = nums[0]
 
-        for num in nums:
-            if num == prev:
-                continue 
-            else:
-                nums[curr] = num
+        for pos, num in enumerate(nums[1:], start=1):
+            if nums[pos] != prev:
+                nums[pos], nums[interim_pos] = nums[interim_pos], nums[pos]
+                interim_pos += 1
                 prev = num
-                curr += 1
-        return curr
+        return interim_pos
+
+
+
