@@ -4,20 +4,17 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-
-        hashset = set()
-        front = 0
-        max_length = 0
-
-        for back in range(len(s)):
-            if s[back] not in hashset:
-                hashset.add(s[back])
-                max_length = max(max_length, len(hashset))
+        tail = 0 
+        exist_set = set()
+        max_len = 0
         
+        for pos, char in enumerate(s):
+            if char not in exist_set:
+                exist_set.add(char)
+                max_len = max(max_len,pos-tail+1)
             else:
-                while s[front] != s[back]:
-                    hashset.remove(s[front])
-                    front += 1
-                front += 1
-        
-        return max_length 
+                while s[tail] != char:
+                    exist_set.remove(s[tail])
+                    tail += 1
+                tail += 1
+        return max_len
