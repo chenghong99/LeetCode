@@ -114,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/chenghong99/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0141-linked-list-cycle](https://github.com/chenghong99/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/chenghong99/LeetCode/tree/master/0142-linked-list-cycle-ii) |
 | [0219-contains-duplicate-ii](https://github.com/chenghong99/LeetCode/tree/master/0219-contains-duplicate-ii) |
@@ -222,6 +223,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/chenghong99/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0451-sort-characters-by-frequency](https://github.com/chenghong99/LeetCode/tree/master/0451-sort-characters-by-frequency) |
 | [0944-delete-columns-to-make-sorted](https://github.com/chenghong99/LeetCode/tree/master/0944-delete-columns-to-make-sorted) |
 | [0955-delete-columns-to-make-sorted-ii](https://github.com/chenghong99/LeetCode/tree/master/0955-delete-columns-to-make-sorted-ii) |
@@ -287,6 +289,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/chenghong99/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0219-contains-duplicate-ii](https://github.com/chenghong99/LeetCode/tree/master/0219-contains-duplicate-ii) |
 | [1208-get-equal-substrings-within-budget](https://github.com/chenghong99/LeetCode/tree/master/1208-get-equal-substrings-within-budget) |
 | [3318-find-x-sum-of-all-k-long-subarrays-i](https://github.com/chenghong99/LeetCode/tree/master/3318-find-x-sum-of-all-k-long-subarrays-i) |
