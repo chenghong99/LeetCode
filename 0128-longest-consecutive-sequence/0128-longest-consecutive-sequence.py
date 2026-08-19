@@ -1,17 +1,21 @@
-class Solution:
-    def longestConsecutive(self, nums: List[int]) -> int:
-        ## hashset to store all the numbers, iterate the array and find consective numbers from hashset. store the head in hashmap and corresponding consecutive num. 
+class Solution(object):
+    def longestConsecutive(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        ## store all in dic 
+        ## find the head and iterate till tail while popping each elem 
+
+        num_set = set(num for num in nums)
+        max_len = 0
         
-        hashset = set(nums)
-        longest = 0
-        curr_longest = 0
-        
-        for i in nums:
-            if i - 1 not in hashset:
-                curr_longest = 1
-                while i + 1 in hashset:
-                    curr_longest += 1
-                    i += 1
-                    
-                longest = max(longest, curr_longest)
-        return longest                
+        for num in nums:
+            if num - 1 not in num_set:
+                curr_len = 0
+                while num in num_set:
+                    curr_len += 1
+                    num_set.remove(num)
+                    num += 1
+                max_len = max(max_len, curr_len)
+        return max_len
