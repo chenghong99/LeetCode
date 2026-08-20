@@ -4,18 +4,14 @@ class Solution(object):
         :type nums: List[int]
         :rtype: None Do not return anything, modify nums in-place instead.
         """
-        
-        head = 0 
-        tail = 0
-        
-        while tail < len(nums):
-            if nums[tail] == 0:
-                tail += 1
-                
+        ## switch with prev 
+
+        moving_head = 0 
+        for i, num in enumerate(nums):
+            if num == 0:
+                continue 
             else:
-                nums[tail], nums[head] = nums[head], nums[tail]
-                head += 1
-                tail += 1
-                
+                nums[i], nums[moving_head] = nums[moving_head], nums[i]
+                moving_head += 1
         return nums
         
