@@ -9,13 +9,19 @@ class Solution(object):
         :type head: Optional[ListNode]
         :rtype: Optional[ListNode]
         """
-        ## need 3 variables to keep track. add a temp head to first head to create prev. 
-        prev = None 
-
+        ## 1 -> 2 -> 3 -> 4 -> 5
+        ## None <- 1  2 -> 3 -> 4 -> 5
+        ## 1 <- 2 -> 3 -> 4 -> 5
+        ## 1 <- 2 <- 3 -> 4 -> 5
+        ## I need 3 reference 
+        
+        prev = None
+        
         while head:
-            curr = head
-            head = head.next 
-            curr.next = prev 
-            prev = curr
+            temp = head
+            head = head.next
+            temp.next = prev
+            prev = temp 
 
         return prev
+
