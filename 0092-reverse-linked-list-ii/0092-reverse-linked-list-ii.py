@@ -12,29 +12,16 @@ class Solution(object):
         :rtype: Optional[ListNode]
         """
 
-        dummy_node = ListNode()
-        dummy_node.next = head 
-        fix_node = dummy_node
-        prev_node = dummy_node
-        curr_pos = 0
+        prev = fix = ListNode(0, head)
 
-        while True:
-            if curr_pos == left-1:
-                prev_node.next = None
-                prev = None
-                first = head
-                for i in range(right - left + 1):
-                    curr = head
-                    head = head.next 
-                    curr.next = prev
-                    prev = curr
-                prev_node.next = prev
-                first.next = head
-                break
-            else:
-                prev_node = prev_node.next
-                head = head.next
-                curr_pos += 1
-        return fix_node.next
+        for _ in range(left - 1):
+            prev = prev.next
 
-                    
+        curr = prev.next ## curr = 2
+        for i in range(right - left):
+            temp = curr.next ## temp = 3
+            curr.next = temp.next
+            temp.next = prev.next
+            prev.next = temp
+        
+        return fix.next
