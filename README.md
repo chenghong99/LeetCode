@@ -180,6 +180,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0584-find-customer-referee](https://github.com/chenghong99/LeetCode/tree/master/0584-find-customer-referee) |
 | [0585-investments-in-2016](https://github.com/chenghong99/LeetCode/tree/master/0585-investments-in-2016) |
 | [0626-exchange-seats](https://github.com/chenghong99/LeetCode/tree/master/0626-exchange-seats) |
+| [1164-product-price-at-a-given-date](https://github.com/chenghong99/LeetCode/tree/master/1164-product-price-at-a-given-date) |
 | [1341-movie-rating](https://github.com/chenghong99/LeetCode/tree/master/1341-movie-rating) |
 | [1378-replace-employee-id-with-the-unique-identifier](https://github.com/chenghong99/LeetCode/tree/master/1378-replace-employee-id-with-the-unique-identifier) |
 | [1908-recyclable-and-low-fat-products](https://github.com/chenghong99/LeetCode/tree/master/1908-recyclable-and-low-fat-products) |
