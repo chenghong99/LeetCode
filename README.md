@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0011-container-with-most-water](https://github.com/chenghong99/LeetCode/tree/master/0011-container-with-most-water) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/chenghong99/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0045-jump-game-ii](https://github.com/chenghong99/LeetCode/tree/master/0045-jump-game-ii) |
 | [0056-merge-intervals](https://github.com/chenghong99/LeetCode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/chenghong99/LeetCode/tree/master/0057-insert-interval) |
 | [0066-plus-one](https://github.com/chenghong99/LeetCode/tree/master/0066-plus-one) |
@@ -64,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/chenghong99/LeetCode/tree/master/0011-container-with-most-water) |
+| [0045-jump-game-ii](https://github.com/chenghong99/LeetCode/tree/master/0045-jump-game-ii) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/chenghong99/LeetCode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/chenghong99/LeetCode/tree/master/0134-gas-station) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/chenghong99/LeetCode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
@@ -296,6 +298,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/chenghong99/LeetCode/tree/master/0045-jump-game-ii) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/chenghong99/LeetCode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0264-ugly-number-ii](https://github.com/chenghong99/LeetCode/tree/master/0264-ugly-number-ii) |
 | [2054-two-best-non-overlapping-events](https://github.com/chenghong99/LeetCode/tree/master/2054-two-best-non-overlapping-events) |
