@@ -4,12 +4,10 @@ class Solution(object):
         :type prices: List[int]
         :rtype: int
         """
-        
-        total = 0
-        
-        for i in range(1,len(prices)):
-            if prices[i - 1] < prices[i]:
-                total += prices[i] - prices[i - 1]
-                
-        return total 
-        
+        profit = 0
+        for pos, num in enumerate(prices[:-1]):
+            if num < prices[pos + 1]:
+                profit += prices[pos + 1] - num
+        return profit
+
+
