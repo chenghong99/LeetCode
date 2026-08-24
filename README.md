@@ -192,6 +192,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1378-replace-employee-id-with-the-unique-identifier](https://github.com/chenghong99/LeetCode/tree/master/1378-replace-employee-id-with-the-unique-identifier) |
 | [1393-capital-gainloss](https://github.com/chenghong99/LeetCode/tree/master/1393-capital-gainloss) |
 | [1908-recyclable-and-low-fat-products](https://github.com/chenghong99/LeetCode/tree/master/1908-recyclable-and-low-fat-products) |
+| [3220-odd-and-even-transactions](https://github.com/chenghong99/LeetCode/tree/master/3220-odd-and-even-transactions) |
 | [3586-find-covid-recovery-patients](https://github.com/chenghong99/LeetCode/tree/master/3586-find-covid-recovery-patients) |
 | [3601-find-drivers-with-improved-fuel-efficiency](https://github.com/chenghong99/LeetCode/tree/master/3601-find-drivers-with-improved-fuel-efficiency) |
 ## Stack
