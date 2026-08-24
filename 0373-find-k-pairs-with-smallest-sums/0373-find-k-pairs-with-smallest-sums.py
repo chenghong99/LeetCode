@@ -21,4 +21,3 @@ class Solution:
             res.append(ans[i][1])
         
         return res
-        
