@@ -5,15 +5,19 @@ class Solution(object):
         :type cost: List[int]
         :rtype: int
         """
-        ## start iterating from the first index, use an accumulating variable to count the fuel accumulated so far. if it reaches negative reset to 0 
 
         if sum(gas) < sum(cost):
-            return -1
+            return -1 ## if sum(gas) more, there will def be a way
 
-        accumulate, pos = 0, 0
-        for i in range(len(gas)):
-            accumulate += gas[i] - cost[i]
-            if accumulate < 0:
-                pos = i + 1
-                accumulate = 0
-        return pos
+        curr_gas = 0
+        ans = 0
+
+        for pos, vol in enumerate(gas):
+            curr_gas += vol
+            if curr_gas < cost[pos]:
+                curr_gas = 0
+                ans = pos + 1
+            else:
+                curr_gas -= cost[pos]
+
+        return ans
