@@ -1,12 +1,9 @@
-# Write your MySQL query statement below
-with manager_id as (
-    select 
+WITH raw AS (
+    SELECT
     managerId,
-    count(*) as manager_count
-    from Employee
-    group by 1
-    having count(*) >= 5) 
-    
-    select name
-    from Employee a
-    inner join manager_id b on a.id = b.managerId
+    COUNT(id) as num_employees 
+    FROM Employee
+    GROUP BY 1
+    HAVING COUNT(id) >= 5)
+
+SELECT name from raw INNER JOIN Employee on raw.managerId = Employee.id
