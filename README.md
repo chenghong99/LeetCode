@@ -189,6 +189,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0584-find-customer-referee](https://github.com/chenghong99/LeetCode/tree/master/0584-find-customer-referee) |
 | [0585-investments-in-2016](https://github.com/chenghong99/LeetCode/tree/master/0585-investments-in-2016) |
 | [0626-exchange-seats](https://github.com/chenghong99/LeetCode/tree/master/0626-exchange-seats) |
+| [1158-market-analysis-i](https://github.com/chenghong99/LeetCode/tree/master/1158-market-analysis-i) |
 | [1164-product-price-at-a-given-date](https://github.com/chenghong99/LeetCode/tree/master/1164-product-price-at-a-given-date) |
 | [1193-monthly-transactions-i](https://github.com/chenghong99/LeetCode/tree/master/1193-monthly-transactions-i) |
 | [1204-last-person-to-fit-in-the-bus](https://github.com/chenghong99/LeetCode/tree/master/1204-last-person-to-fit-in-the-bus) |
