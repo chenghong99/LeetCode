@@ -1,11 +1,21 @@
 # Write your MySQL query statement below
-with raw as (
-    select 
-    b.name as "Department",
-    a.name as "Employee",
-    salary as "Salary",
-    DENSE_RANK()over(partition by b.name order by salary DESC) as rnk
-    from Employee a 
-    left join Department b on a.departmentId = b.id
-) select Department, 
- Employee, Salary from raw where rnk <= 3
+## use dense rank tie even
+
+
+WITH emp_rnk AS (
+    SELECT 
+    e.id,
+    e.name AS Employee,
+    d.name AS Department,
+    salary AS Salary,
+    departmentId,
+    DENSE_RANK() OVER (PARTITION BY departmentId ORDER BY salary DESC) as rnk
+    FROM Employee e
+    LEFT JOIN Department d ON e.departmentId = d.id
+) 
+SELECT 
+Department,
+Employee,
+Salary
+FROM emp_rnk
+WHERE rnk <= 3
