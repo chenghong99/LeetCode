@@ -1,10 +1,21 @@
 # Write your MySQL query statement below
+## Find first order and check if date is the same
+WITH raw AS (
+    SELECT 
+    delivery_id,
+    customer_id,
+    order_date,
+    ROW_NUMBER() OVER (PARTITION BY customer_id ORDER BY order_date) AS rnk,
+    customer_pref_delivery_date
+    FROM Delivery
+)
 
-SELECT ROUND((SUM(CASE WHEN f.order_date = f.customer_pref_delivery_date THEN 1 ELSE 0 END) / COUNT(*))*100, 2) AS immediate_percentage 
-FROM (SELECT d.customer_id, MIN(d.order_date) AS order_date, MIN(d.customer_pref_delivery_date) AS customer_pref_delivery_date 
-FROM Delivery d
-GROUP BY d.customer_id) f
-
-## get th first order so group by cust id and order by date and return first 
-## compare using case when first date = pref date
-
+SELECT
+ROUND(
+    COUNT(DISTINCT customer_id)
+    / (SELECT COUNT(DISTINCT customer_id) FROM Delivery)
+    * 100
+, 2) AS immediate_percentage
+FROM raw
+WHERE rnk = 1
+AND order_date = customer_pref_delivery_date
