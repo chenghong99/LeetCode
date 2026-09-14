@@ -1,14 +1,15 @@
-# Write your MySQL query statement below
-## use double lead 
 WITH temp AS (
-    SELECT 
+    SELECT
     id, 
     num,
-    LEAD(num) OVER (ORDER BY id) AS next_num,
-    LEAD(num, 2) OVER (ORDER BY id) AS next_next_num
-    FROM Logs 
-) 
+    ROW_NUMBER() OVER (PARTITION BY num ORDER BY id) AS row_num
+    FROM Logs
+), raw AS (
 SELECT 
-DISTINCT num AS ConsecutiveNums
-FROM temp t1
-WHERE (num = next_num) AND (num = next_next_num)
+num,
+id - row_num AS island
+FROM temp)
+SELECT DISTINCT num AS ConsecutiveNums
+FROM raw
+GROUP BY num, island
+HAVING COUNT(*) >= 3
