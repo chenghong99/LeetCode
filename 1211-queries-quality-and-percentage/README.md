@@ -1,6 +1,7 @@
-<h2><a href="https://leetcode.com/problems/queries-quality-and-percentage/">1211. Queries Quality and Percentage</a></h2><h3>Easy</h3><hr><div class="sql-schema-wrapper__3VBi"><a class="sql-schema-link__3cEg">SQL Schema<svg viewBox="0 0 24 24" width="1em" height="1em" class="icon__1Md2"><path fill-rule="evenodd" d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></a></div><div><p>Table: <code>Queries</code></p>
+<h2><a href="https://leetcode.com/problems/queries-quality-and-percentage">1338. Queries Quality and Percentage</a></h2><h3>Easy</h3><hr><p>Table: <code>Queries</code></p>
 
-<pre>+-------------+---------+
+<pre>
++-------------+---------+
 | Column Name | Type    |
 +-------------+---------+
 | query_name  | varchar |
@@ -39,7 +40,8 @@ The <code>rating</code> column has a value from <strong>1</strong> to <strong>5<
 <p>&nbsp;</p>
 <p><strong class="example">Example 1:</strong></p>
 
-<pre><strong>Input:</strong> 
+<pre>
+<strong>Input:</strong> 
 Queries table:
 +------------+-------------------+----------+--------+
 | query_name | result            | position | rating |
@@ -65,4 +67,3 @@ Dog queries poor_ query_percentage is (1 / 3) * 100 = 33.33
 Cat queries quality equals ((2 / 5) + (3 / 3) + (4 / 7)) / 3 = 0.66
 Cat queries poor_ query_percentage is (1 / 3) * 100 = 33.33
 </pre>
-</div>
