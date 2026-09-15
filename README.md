@@ -214,6 +214,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/chenghong99/LeetCode/tree/master/0020-valid-parentheses) |
 | [0084-largest-rectangle-in-histogram](https://github.com/chenghong99/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [2211-count-collisions-on-a-road](https://github.com/chenghong99/LeetCode/tree/master/2211-count-collisions-on-a-road) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/chenghong99/LeetCode/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
@@ -257,6 +258,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/chenghong99/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0020-valid-parentheses](https://github.com/chenghong99/LeetCode/tree/master/0020-valid-parentheses) |
 | [0242-valid-anagram](https://github.com/chenghong99/LeetCode/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/chenghong99/LeetCode/tree/master/0451-sort-characters-by-frequency) |
 | [0944-delete-columns-to-make-sorted](https://github.com/chenghong99/LeetCode/tree/master/0944-delete-columns-to-make-sorted) |
@@ -386,4 +388,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/chenghong99/LeetCode/tree/master/0056-merge-intervals) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/chenghong99/LeetCode/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
