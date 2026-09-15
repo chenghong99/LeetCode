@@ -200,6 +200,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1341-movie-rating](https://github.com/chenghong99/LeetCode/tree/master/1341-movie-rating) |
 | [1378-replace-employee-id-with-the-unique-identifier](https://github.com/chenghong99/LeetCode/tree/master/1378-replace-employee-id-with-the-unique-identifier) |
 | [1393-capital-gainloss](https://github.com/chenghong99/LeetCode/tree/master/1393-capital-gainloss) |
+| [1741-find-total-time-spent-by-each-employee](https://github.com/chenghong99/LeetCode/tree/master/1741-find-total-time-spent-by-each-employee) |
 | [1907-count-salary-categories](https://github.com/chenghong99/LeetCode/tree/master/1907-count-salary-categories) |
 | [1908-recyclable-and-low-fat-products](https://github.com/chenghong99/LeetCode/tree/master/1908-recyclable-and-low-fat-products) |
 | [3220-odd-and-even-transactions](https://github.com/chenghong99/LeetCode/tree/master/3220-odd-and-even-transactions) |
