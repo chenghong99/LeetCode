@@ -4,16 +4,14 @@ class Solution(object):
         :type prices: List[int]
         :rtype: int
         """
-
+        ## brute force, all iterations, 
+        ## store min before curr pos, update min and max price 
+        
+        min_price = 1000000000000
         max_profit = 0
-        left = 0
-        right = 1
 
-        while right < len(prices):
-            if prices[left] > prices[right]:
-                left = right
-            else:
-                max_profit = max(max_profit, (prices[right] - prices[left]))
-            right += 1
+        for i in prices:
+            min_price = min(i, min_price)
+            max_profit = max(i - min_price, max_profit)
 
         return max_profit
