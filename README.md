@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/chenghong99/LeetCode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/chenghong99/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0134-gas-station](https://github.com/chenghong99/LeetCode/tree/master/0134-gas-station) |
+| [0217-contains-duplicate](https://github.com/chenghong99/LeetCode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/chenghong99/LeetCode/tree/master/0219-contains-duplicate-ii) |
 | [0228-summary-ranges](https://github.com/chenghong99/LeetCode/tree/master/0228-summary-ranges) |
 | [0283-move-zeroes](https://github.com/chenghong99/LeetCode/tree/master/0283-move-zeroes) |
@@ -129,6 +130,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0128-longest-consecutive-sequence](https://github.com/chenghong99/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0141-linked-list-cycle](https://github.com/chenghong99/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/chenghong99/LeetCode/tree/master/0142-linked-list-cycle-ii) |
+| [0217-contains-duplicate](https://github.com/chenghong99/LeetCode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/chenghong99/LeetCode/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/chenghong99/LeetCode/tree/master/0242-valid-anagram) |
 | [0264-ugly-number-ii](https://github.com/chenghong99/LeetCode/tree/master/0264-ugly-number-ii) |
@@ -228,6 +230,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/chenghong99/LeetCode/tree/master/0056-merge-intervals) |
+| [0217-contains-duplicate](https://github.com/chenghong99/LeetCode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/chenghong99/LeetCode/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/chenghong99/LeetCode/tree/master/0451-sort-characters-by-frequency) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/chenghong99/LeetCode/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
